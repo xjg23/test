@@ -1,3 +1,3 @@
 - Getting started
 
-  - [Quick start](quickstart.md)
+  - [Guide](guide.md)
