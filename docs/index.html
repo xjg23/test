@@ -28,6 +28,15 @@
   <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
+      alias: {
+        '.*?/awesome': 'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
+        '.*?/changelog': 'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
+        '/.*/_navbar.md': '/_navbar.md',
+        '/zh-cn/(.*)': 'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
+        '/de-de/(.*)': 'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
+        '/ru/(.*)': 'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
+        '/es/(.*)': 'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1'
+      },
       auto2top: true,
       coverpage: true,
       executeScript: true,
@@ -41,7 +50,7 @@
         host: '//matomo.thunderwave.de',
         id: 6
       },
-      name: 'docsify_test',
+      name: 'docsify',
       search: {
         noData: {
           '/de-de/': 'Keine Ergebnisse!',
@@ -104,4 +113,3 @@
 </body>
 
 </html>
-
