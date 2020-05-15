@@ -1,3 +1,3 @@
-- [Getting started](README.md)
+- Getting started
 
   - [Guide](guide.md)
